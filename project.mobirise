@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "article.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -55,9 +55,7 @@
     "uniqCompNum": 39,
     "versionPublish": "5.6.11",
     "screenshot": "screenshot.png",
-    "google-analytics": "<!-- Remove Mobirise Footer -->\n<script>\n    window.addEventListener('DOMContentLoaded', function () {\n    const sections = document.querySelectorAll('section')\n    sections[sections.length-1].remove()\n})\n</script>",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "google-analytics": "<!-- Remove Mobirise Footer -->\n<script>\n    window.addEventListener('DOMContentLoaded', function () {\n    const sections = document.querySelectorAll('section')\n    sections[sections.length-1].remove()\n})\n</script>"
   },
   "pages": {
     "index.html": {
