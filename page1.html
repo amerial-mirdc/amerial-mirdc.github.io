@@ -39,6 +39,10 @@
     const sections = document.querySelectorAll('section')
     sections[sections.length-1].remove()
 })
+ 
+</script>
+
+<script type="text/javascript">
   (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
   ;r.type="text/javascript"
   ;r.integrity="sha384-+EO59vL/X7v6VE2s6/F4HxfHlK0nDUVWKVg8K9oUlvffAeeaShVBmbORTC2D3UF+"
@@ -77,8 +81,9 @@ document.querySelector("body").addEventListener('click', function(e) {
     amplitude.getInstance().logEvent(anchor.textContent);
     console.log(anchor.textContent);
   }
-}, false)
+}, false);
 </script>
+
 <!-- /Analytics -->
 
 
